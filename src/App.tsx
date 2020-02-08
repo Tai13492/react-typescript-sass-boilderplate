@@ -1,6 +1,7 @@
-import React from 'react';
-import logo from './logo.svg';
-import './App.css';
+import React from "react";
+import logo from "logo.svg";
+import "App.css";
+import Navbar from "components/Navbar";
 
 const App = () => {
   return (
@@ -18,9 +19,10 @@ const App = () => {
         >
           Learn React
         </a>
+        <Navbar />
       </header>
     </div>
   );
-}
+};
 
 export default App;
